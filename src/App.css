@@ -1,0 +1,50 @@
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-fluid {
+  padding: 0px;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 50px;
+  background-color: darkslategray;
+  color: wheat;
+}
+
+main {
+  background-image: url(https://picsum.photos/1024);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+footer {
+  height: 35px;
+  background-color: darkslategray;
+  color: wheat;
+}
+
+main {
+  flex: 1;
+}
+
+.card {
+  background-color: antiquewhite;
+  border-radius: 15px;
+}
